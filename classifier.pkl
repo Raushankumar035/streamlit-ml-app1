@@ -1,0 +1,4 @@
+import pickle
+
+with open("classifier.pkl", "wb") as model_file:
+    pickle.dump(model, model_file)
